@@ -1,0 +1,34 @@
+{
+  "name": "stomp-broker-js",
+  "version": "1.2.0",
+  "description": "Simple STOMP 1.1 Broker for nodejs http applications.",
+  "main": "stompServer.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4ib3r/StompBrokerJS.git"
+  },
+  "keywords": [
+    "STOMP",
+    "broker",
+    "server",
+    "websocket"
+  ],
+  "author": "Adrian Sławiński <adrian.slawinski@javadevelopers.pl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4ib3r/StompBrokerJS/issues"
+  },
+  "homepage": "https://github.com/4ib3r/StompBrokerJS#readme",
+  "dependencies": {
+    "ws": "^5.1.1",
+    "sockjs": "^0.3.19"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "stompjs": "^2.3.3"
+  }
+}
